@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    Font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    }
+    img{
+        width: 100%;
+    }
+    .logo{
+        width: 150px;
+    }
+    header{
+        background-image: url(images/mobile/image-header.jpg);
+        height: 693px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Fraunces', serif; 
+        width: 100%;
+    }
+    header img{
+        margin: 20px;
+    }
+    header button{
+        margin: 20px;
+        border: none;
+        background-color: transparent;
+        float: right;
+    }
+    header span{
+        color: white;
+        font-size: 80px;
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        width: 80%;
+        margin:30px auto;
+    }
+    header .arrow{
+        width: 36px;
+        position: absolute;
+        top: 350px;
+        left: calc((95%-36)/2);
+    }
+    .transform img{
+        width: 100%;
+    }
+
+    .transform{
+        min-height:730px;
+        background-color: white;
+    }
+    .transform p{
+        color: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        line-height: 1.4;
+    }
+    .heading{
+        color: black;
+        font-family: 'Fraunces', serif; 
+        font-size: 50px;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .transform a{
+        color: black;
+        font-family: 'Fraunces', serif; 
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .stand-out{
+        width: 100%;
+        max-width: 480px;
+        text-align: center;
+    }
+    .stand-out img{
+        width: 100%;
+    }
+    .stand-out a{
+        color: black;
+        font-family: 'Fraunces', serif; 
+        display: block;
+        margin: 20px auto 50px auto;
+        text-align: center;
+    }
+    .stand-out div{
+        display: block;
+        margin: auto;
+    }
+    .stand-out p{
+        color: rgba(0, 0, 0, 0.4);
+    }
+    /* .graphic-design{
+
+    } */
+    .graphic-design span{
+        position: absolute;
+        top: 2600px;
+        left: 50px;
+        color:hsl(167, 40%, 24%);
+    }
+    .graphic-design p{
+        width: 80%;
+        position: absolute;
+        top: 2750px;
+        color:hsl(167, 40%, 24%);
+        text-align: center;
+        padding-left: 50px;
+    }
+    .photography{
+        margin-top: 0px;
+        background-image: url(images/mobile/image-photography.jpg);
+        background-color: aqua;
+        height: 700px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .photography span{
+        margin: 0px auto;
+        padding-top: 450px;
+    }
+    .photography p{
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
