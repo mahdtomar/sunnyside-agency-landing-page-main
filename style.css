@@ -195,12 +195,9 @@ font-family: 'Fraunces', serif; */
         margin:50px auto ;
     }
     footer .link{
-        /* margin-top: 100px; */
-        /* text-align: center; */
         color: hsl(167, 40%, 24%);
         text-decoration: none;
         margin-left: 40px;
-        /* margin-left: 75px; */
         display: inline-block;
     }
 
