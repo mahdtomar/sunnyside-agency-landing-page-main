@@ -146,10 +146,11 @@ font-family: 'Fraunces', serif; */
         color: hsl(198, 62%, 26%);
     }
     .Clinets img{
+        
         width: 100px;
         border-radius: 50%;
         display: block;
-        margin: 30px auto;
+        margin: 60px auto;
     }
     .Clinets span{
         color: rgba(0, 0, 0, 0.4);
@@ -165,39 +166,42 @@ font-family: 'Fraunces', serif; */
 
     .work-field{
         text-align: center;
-        color: rgba(0, 0, 0, 0.4);
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    .pics img{
+        width: 50%;
+        margin: 0px;
+        display: inline;
+        float: left;
+        /* height:303.86px; */
+    }
+    footer{
+        background-color: #9BD8C9;
+        color: hsl(167, 40%, 24%);
+        height: 400px;
+    }
+    footer a{
+        padding-top: 100px;
+        text-align: center;
+        color: hsl(167, 40%, 24%);
+        text-decoration: none;
+        width: calc(80%/3);
+        padding-left: 50px;
+        display: inline-block;
+    }
+    footer img{
+        width: 50%;
+        display: block;
+        padding-top: 50px;
+        margin: auto;
     }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 15px;
+    text-align: center;
+    background-color: #9BD8C9;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
