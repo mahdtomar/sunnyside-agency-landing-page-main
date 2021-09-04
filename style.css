@@ -186,21 +186,33 @@ font-family: 'Fraunces', serif; */
     footer{
         background-color: #9BD8C9;
         color: hsl(167, 40%, 24%);
-        height: 400px;
+        height: 320px;
     }
     footer .links{
-        margin-top: 100px;
+        width: 80%;
         text-align: center;
+        display: block;
+        margin:50px auto ;
+    }
+    footer .link{
+        /* margin-top: 100px; */
+        /* text-align: center; */
         color: hsl(167, 40%, 24%);
         text-decoration: none;
-        margin-left: 75px;
+        margin-left: 40px;
+        /* margin-left: 75px; */
         display: inline-block;
     }
-    footer a i{
+
+    footer .Contact{
+        width: 80%;
+        margin:50px auto;
+        text-align: center;
+    }
+    .Contact i{
+        margin: 0px 20px;
         color: hsl(167, 40%, 24%);
 
-        margin-left: 85px;
-        margin-top: 50px;
     }
     footer a:hover{
         color: white;
