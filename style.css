@@ -11,15 +11,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* 
 font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif; */
@@ -39,7 +30,7 @@ font-family: 'Fraunces', serif; */
     header{
         background-image: url(images/mobile/image-header.jpg);
         height: 693px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         font-family: 'Fraunces', serif; 
         width: 100%;
@@ -118,22 +109,22 @@ font-family: 'Fraunces', serif; */
     .stand-out p{
         color: rgba(0, 0, 0, 0.4);
     }
-    /* .graphic-design{
-
-    } */
-    .graphic-design span{
-        position: absolute;
-        top: 2600px;
-        left: 50px;
-        color:hsl(167, 40%, 24%);
+    .graphic-design{
+        background-image: url(images/mobile/image-graphic-design.jpg);
+        height: 700px;
+        background-size: cover;
     }
-    .graphic-design p{
-        width: 80%;
-        position: absolute;
-        top: 2750px;
+    .graphic-design span{
+        padding-top: 450px;
         color:hsl(167, 40%, 24%);
         text-align: center;
-        padding-left: 50px;
+    } 
+    .graphic-design p{
+        color: hsl(167, 40%, 24%);
+        padding-top: 25px;
+        text-align: center;
+        padding-left: 30px;
+        width: 90%;
     }
     .photography{
         margin-top: 0px;
@@ -148,9 +139,33 @@ font-family: 'Fraunces', serif; */
     .photography span{
         margin: 0px auto;
         padding-top: 450px;
+        color: hsl(198, 62%, 26%);
     }
     .photography p{
         padding-top: 50px;
+        color: hsl(198, 62%, 26%);
+    }
+    .Clinets img{
+        width: 100px;
+        border-radius: 50%;
+        display: block;
+        margin: 30px auto;
+    }
+    .Clinets span{
+        color: rgba(0, 0, 0, 0.4);
+        /* font-family:'Barlow', sans-serif; */
+        font-size: 35px;
+        font-stretch:extra-expanded;
+    }
+    .Clinets p{
+        color: rgba(0, 0, 0, 0.8);
+        padding-left: 40px;
+        width: 90%;
+    }
+
+    .work-field{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.4);
     }
 }
 
