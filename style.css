@@ -342,6 +342,10 @@ font-family: 'Fraunces', serif; */
     top: 350px;
     left: calc((95%-36) / 2);
   }
+  .grid{
+  display: grid;
+  grid-template-columns:  1fr ;
+}
   .transform img {
     width: 100%;
   }
