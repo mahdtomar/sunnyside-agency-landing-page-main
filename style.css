@@ -62,16 +62,21 @@ header .arrow {
 }
 
 .transform {
-  min-height: 730px;
+  /* min-height: 730px; */
   background-color: white;
+  text-align: left;
 }
 .transform .text{
-    width: 50%;
-    float
+    width: 100%;
+    float:left;
 }
+.transform .text article{
+  width: 70%;
+  margin: 150px auto;
+}
+.transform span{text-align: left;}
 .transform p {
   color: rgba(0, 0, 0, 0.4);
-  text-align: center;
   line-height: 1.4;
 }
 .heading {
@@ -79,7 +84,7 @@ header .arrow {
   font-family: "Fraunces", serif;
   font-size: 50px;
   display: block;
-  margin: 20px auto;
+  margin:  auto;
   text-align: center;
 }
 .transform a {
@@ -87,22 +92,32 @@ header .arrow {
   font-family: "Fraunces", serif;
   display: block;
   margin: 20px auto;
-  text-align: center;
+  text-align: left;
 }
 .stand-out {
   width: 100%;
-  max-width: 480px;
-  text-align: center;
+  text-align: left;
+}
+.stand-out .text{
+      width: 100%;
+      float:right;
+}
+.stand-out .text article{
+  width: 70%;
+  margin: 150px auto;
+}
+.stand-out span{
+  text-align: left;
 }
 .stand-out img {
-  width: 100%;
+  width: 50%;
 }
 .stand-out a {
   color: black;
   font-family: "Fraunces", serif;
   display: block;
   margin: 20px auto 50px auto;
-  text-align: center;
+  text-align: left;
 }
 .stand-out div {
   display: block;
@@ -111,13 +126,23 @@ header .arrow {
 .stand-out p {
   color: rgba(0, 0, 0, 0.4);
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.grid img{
+  width: 100%;
+}
 .graphic-design {
   background-image: url(images/mobile/image-graphic-design.jpg);
-  height: 700px;
+  height: 850px;
   background-size: cover;
+  width: 100%;
+  float: left;
 }
 .graphic-design span {
-  padding-top: 450px;
+  padding-top: 650px;
   color: hsl(167, 40%, 24%);
   text-align: center;
 }
@@ -125,27 +150,36 @@ header .arrow {
   color: hsl(167, 40%, 24%);
   padding-top: 25px;
   text-align: center;
-  padding-left: 30px;
-  width: 90%;
+  width: 70%;
+  margin: auto;
 }
 .photography {
   margin-top: 0px;
   background-image: url(images/mobile/image-photography.jpg);
   background-color: aqua;
-  height: 700px;
+  height: 850px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  float: right;
 }
 .photography span {
   margin: 0px auto;
-  padding-top: 450px;
+  padding-top: 650px;
   color: hsl(198, 62%, 26%);
 }
 .photography p {
-  padding-top: 50px;
+  padding-top: 25px;
   color: hsl(198, 62%, 26%);
+    width: 70%;
+    margin: auto;
+}
+.person{
+  margin: 50px auto;
+  width: 30%;
+  display: inline-block;
+  margin-left:  3%;
 }
 .Clinets img {
   width: 100px;
@@ -158,6 +192,7 @@ header .arrow {
   /* font-family:'Barlow', sans-serif; */
   font-size: 35px;
   font-stretch: extra-expanded;
+  margin-top: 50px;
 }
 .Clinets p {
   color: rgba(0, 0, 0, 0.8);
@@ -171,7 +206,7 @@ header .arrow {
 }
 
 .pics img {
-  width: 50%;
+  width: 25%;
   margin: 0px;
   display: inline;
   float: left;
@@ -180,7 +215,7 @@ header .arrow {
 footer {
   background-color: #9bd8c9;
   color: hsl(167, 40%, 24%);
-  height: 320px;
+  height: 480px;
 }
 footer .links {
   width: 80%;
@@ -191,10 +226,12 @@ footer .links {
 footer .link {
   color: hsl(167, 40%, 24%);
   text-decoration: none;
-  /* margin-left: 15px; */
+  margin-left: 50px;
   display: inline-block;
 }
-
+footer .first{
+  margin-left: 0px;
+}
 footer .Contact {
   width: 80%;
   margin: 50px auto;
@@ -325,7 +362,9 @@ font-family: 'Fraunces', serif; */
   }
   .graphic-design {
     background-image: url(images/mobile/image-graphic-design.jpg);
-    height: 700px;
+    /* height: 700px; */
+    max-width: 720px;
+    width: 50%;
     background-size: cover;
   }
   .graphic-design span {
@@ -344,8 +383,9 @@ font-family: 'Fraunces', serif; */
     margin-top: 0px;
     background-image: url(images/mobile/image-photography.jpg);
     background-color: aqua;
-    height: 700px;
-    width: 100%;
+    /* height: 700px; */
+    width: 50%;
+    max-width: 720px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
