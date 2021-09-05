@@ -354,6 +354,13 @@ font-family: 'Fraunces', serif; */
     min-height: 730px;
     background-color: white;
   }
+  .transform .text{
+    width: 100%;
+  }
+  .transform .text article{
+  width: 90%;
+  margin: 20px auto;
+  }
   .transform p {
     color: rgba(0, 0, 0, 0.4);
     text-align: center;
@@ -378,6 +385,13 @@ font-family: 'Fraunces', serif; */
     width: 100%;
     max-width: 480px;
     text-align: center;
+  }
+    .stand-out .text{
+    width: 100%;
+  }
+  .stand-out .text article{
+  width: 90%;
+  margin: 20px auto;
   }
   .stand-out img {
     width: 100%;
@@ -435,6 +449,12 @@ font-family: 'Fraunces', serif; */
     padding-top: 50px;
     color: hsl(198, 62%, 26%);
   }
+  .person{
+  margin: 20px auto;
+  width: 100%;
+  display: inline-block;
+  margin-left:  3%;
+}
   .Clinets img {
     width: 100px;
     border-radius: 50%;
