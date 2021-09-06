@@ -264,6 +264,7 @@ font-family: 'Fraunces', serif; */
 /*************************************************************************************************************/
 
 
+
 @media only screen and (max-width: 1300px) {
   .stand-out .text article{
     margin: 100px auto;
@@ -329,12 +330,12 @@ font-family: 'Fraunces', serif; */
   }
   header span {
     color: white;
-    font-size: 80px;
+    font-size: 58px;
     display: block;
     margin-top: 30px;
     text-align: center;
     width: 80%;
-    margin: 30px auto;
+    margin: 77px auto;
   }
   header .arrow {
     width: 36px;
@@ -351,9 +352,12 @@ font-family: 'Fraunces', serif; */
   }
 
   .transform {
-    min-height: 730px;
+    min-height: 500px;
     background-color: white;
   }
+  .transform span {
+     text-align: center; 
+}
   .transform .text{
     width: 100%;
   }
@@ -386,7 +390,7 @@ font-family: 'Fraunces', serif; */
     max-width: 480px;
     text-align: center;
   }
-    .stand-out .text{
+  .stand-out .text{
     width: 100%;
   }
   .stand-out .text article{
@@ -414,7 +418,7 @@ font-family: 'Fraunces', serif; */
     background-image: url(images/mobile/image-graphic-design.jpg);
     /* height: 700px; */
     max-width: 720px;
-    width: 50%;
+    width: 100%;
     background-size: cover;
   }
   .graphic-design span {
@@ -434,7 +438,7 @@ font-family: 'Fraunces', serif; */
     background-image: url(images/mobile/image-photography.jpg);
     background-color: aqua;
     /* height: 700px; */
-    width: 50%;
+    width: 100%;
     max-width: 720px;
     background-size: cover;
     background-repeat: no-repeat;
